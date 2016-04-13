@@ -5,7 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "phantom": "^2.0.10",
-    "scraperjs": "^1.2.0"
+    "scraperjs": "^1.2.0",
+    "request": "latest"
   },
   "devDependencies": {},
   "scripts": {
