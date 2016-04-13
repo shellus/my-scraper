@@ -1,14 +1,24 @@
 {
   "name": "my-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "我的nodejs爬虫脚手架，基于scraperjs",
   "main": "app.js",
+  "dependencies": {
+    "phantom": "^2.0.10",
+    "scraperjs": "^1.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shellus/my-scraper.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "scraperjs": "^1.2.0"
-  }
+  "bugs": {
+    "url": "https://github.com/shellus/my-scraper/issues"
+  },
+  "homepage": "https://github.com/shellus/my-scraper#readme"
 }
